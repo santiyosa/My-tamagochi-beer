@@ -1,0 +1,13 @@
+{
+  "name": "juego_nodo",
+  "version": "1.0.0",
+  "main": "Tamagochi.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ./dist/index.js"
+  },
+
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

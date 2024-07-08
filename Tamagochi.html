@@ -5,34 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>My Tama</title>
+    <title>Bear Tama</title>
 </head>
 
 <body>
+    <div class="h2">
+        <h2 id="name"></h2>
+    </div>
     <div class="container">
+
         <div class="divelements">
             <div class="divboton">
                 <div>
-                    Vida
+                    <p>Vida</p>
                 </div>
                 <div>
-                    100
-                </div>
-            </div>
-            <div class="divboton">
-                <div>
-                    Hambre
-                </div>
-                <div>
-                    100
+                    <p><span id="valorVida">%</span></p>
                 </div>
             </div>
             <div class="divboton">
                 <div>
-                    Hidratación
+                    <p>Hambre</p>
                 </div>
                 <div>
-                    100
+                    <p><span id="valorHambre">0</span></p>
+                </div>
+            </div>
+            <div class="divboton">
+                <div>
+                    <p>Hidratación</p>
+                </div>
+                <div>
+                    <p><span id="valorHidratacion">0</span></p>
                 </div>
             </div>
         </div>
@@ -43,20 +47,24 @@
                 </div>
                 <div>
                     <div>
-                        <img src="Image/beer8b.png" alt="The beer">
+                        <input type="image" src="Image/beer8b.png" alt="A beer" id="imgbear">
                     </div>
                     <div>
-                        <img src="Image/pizza.png" alt="The beer">
+                        <input type="image" src="Image/pizza.png" alt="A pizza" id="imgpizza">
                     </div>
                 </div>
             </div>
         </div>
         <div class="divelements">
-            <div class="divboton">Expectativa de vida: </div>
-            <div class="divboton">10 años</div>
+            <div class="divboton">
+                <p>Expectativa de vida:</p>
+            </div>
+            <div class="divboton">
+                <p><span id="valorExpectativa">Años</span></p>
+            </div>
         </div>
-
     </div>
+    <script src="dist/Tamagochi.js"></script>
 </body>
 
 </html>

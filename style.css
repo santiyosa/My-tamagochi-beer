@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh; 
+    height: 80vh; 
     width: auto;
 }
 
@@ -28,4 +28,11 @@
     margin: 5px;
     width: 100px;
     text-align: center;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
 }
